@@ -29,8 +29,9 @@ window.onload = function() {
     valpintas === "&diams;";
   }
   //obtener el valor del ID y guardarlo en una variable
-  htmlpinta = document.getElementById("");
-  htmlnum = document.getElementById("");
+
+  htmlpinta = document.getElementById("pinta");
+  htmlnum = this.document.getElementById("numero");
 
   //imprimir el valor de la variable en el HTML
   htmlpinta.innerHTML = valpintas;
