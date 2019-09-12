@@ -7,6 +7,7 @@ import "../assets/img/4geeks.ico";
 import "../style/index.scss";
 
 window.onload = function() {
+  // Variables generan valores aleatorios
   let pintas = Math.round(Math.random() * 3);
   let num = Math.round(Math.random() * 13);
   let valpintas = 0;
@@ -29,7 +30,7 @@ window.onload = function() {
   }
   //obtener el valor del ID y guardarlo en una variable
   htmlpinta = document.getElementById("");
-  htmlnum = this.document.getElementById("");
+  htmlnum = document.getElementById("");
 
   //imprimir el valor de la variable en el HTML
   htmlpinta.innerHTML = valpintas;
