@@ -30,8 +30,8 @@ window.onload = function() {
   }
   //obtener el valor del ID y guardarlo en una variable
 
-  htmlpinta = document.getElementById("pinta");
-  htmlnum = this.document.getElementById("numero");
+  let htmlpinta = document.getElementById("pinta");
+  let htmlnum = this.document.getElementById("numero");
 
   //imprimir el valor de la variable en el HTML
   htmlpinta.innerHTML = valpintas;
